@@ -5,6 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+    </style>
+
     <title>Elwood's Window Cleaning</title>
     <style>
       body {
@@ -12,33 +22,53 @@
         background-size: cover;
         background-repeat: no-repeat;
       }
+      button {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+
+        padding: 15px;
+        background-color: aliceblue;
+        border-radius: 50px;
+      }
+      a {
+        text-decoration: none;
+        font-size: 20px;
+        transition: all 200ms ease-in-out;
+        color: blue;
+      }
+      a:hover {
+        color: red;
+      }
       h1,
       h2,
       h3,
       p {
         text-align: center;
+        color: white;
+        font-family: "Roboto", sans-serif;
       }
       h1 {
+        font-size: 90px;
+      }
+      h2 {
         font-size: 50px;
       }
       p,
       h2 {
         line-height: 1.5;
       }
+      p {
+        font-size: 35px;
+      }
       .container {
         display: block;
         margin: 100px auto;
-        max-width: 900px;
-        background-color: rgba(228, 241, 254, 0.85);
+        max-width: 1200px;
         padding: 20px;
         border-radius: 5px;
       }
-      img {
-        display: block;
-        margin: 0 auto;
-        max-width: 100%;
-        border-radius: 5px;
-      }
+
       @media (max-width: 400px) {
         h1 {
           font-size: 30px;
@@ -48,16 +78,20 @@
   </head>
   <body>
     <div class="container">
+      <button>
+        <a href="https://loving-mcnulty-81856b.netlify.app/" target="_blank">
+          Check the weather forecast</a
+        >
+      </button>
       <h1>Elwood's Window Cleaning</h1>
       <h2>Residential * Commercial <br />Reno, Nevada <br />"Since 1987"</h2>
-      <img src="van.jpg" class="fluid" alt="ewc van" />
+
       <p>
         Elwood's Window Cleaning is a family owned and operated business. We've
         been serving the Reno, Sparks area since 1987. Our company's goal has
         always been to provide our clients with the best service possible.
       </p>
       <footer>
-        <h3>Contact Us:</h3>
         <p>
           Office: (775) 313-8105 <br />Mobile: (775) 746-3792 <br />
           Email: elwoodswindowcleaning@gmail.com
