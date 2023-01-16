@@ -1,0 +1,62 @@
+body {
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+
+  padding: 15px;
+  background-color: aliceblue;
+  border-radius: 50px;
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 200ms ease-in-out;
+  color: blue;
+}
+a:hover {
+  color: red;
+}
+h1,
+h2,
+h3,
+p {
+  text-align: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  font-size: 80px;
+  margin-bottom: 0;
+}
+.official {
+  color: white;
+}
+h2 {
+  font-size: 40px;
+}
+p,
+h2 {
+  line-height: 1.5;
+}
+p {
+  font-size: 35px;
+}
+.container {
+  display: block;
+  margin: 100px auto;
+  max-width: 1200px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 30px;
+  }
+}
