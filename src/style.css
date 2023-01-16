@@ -36,6 +36,7 @@ h1 {
 }
 .official {
   color: whte;
+  font-size: 30px;
 }
 h2 {
   font-size: 40px;
@@ -45,7 +46,7 @@ h2 {
   line-height: 1.5;
 }
 p {
-  font-size: 30px;
+  font-size: 25px;
 }
 .container {
   display: block;
