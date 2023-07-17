@@ -1,7 +1,5 @@
 body {
-  background-image: url(../images/bg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #4872a0;
 }
 
 button {
@@ -17,7 +15,7 @@ a {
   text-decoration: none;
   font-size: 20px;
   transition: all 200ms ease-in-out;
-  color: blue;
+  color: #4872a0;
 }
 a:hover {
   color: red;
@@ -57,6 +55,9 @@ p {
 
 @media (max-width: 400px) {
   h1 {
-    font-size: 30px;
+    font-size: 40px;
+  }
+  p {
+    font-size: 20px;
   }
 }
