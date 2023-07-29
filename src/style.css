@@ -2,11 +2,20 @@ body {
   background-color: #4872a0;
 }
 
+.container,
+.containerServices {
+  display: block;
+  margin: 100px auto;
+  max-width: 1200px;
+  padding: 20px;
+  border: 2px solid aliceblue;
+  border-radius: 15px;
+}
+
 button {
   display: block;
   margin: 0 auto;
   text-align: center;
-
   padding: 15px;
   background-color: aliceblue;
   border-radius: 50px;
@@ -29,7 +38,7 @@ p {
   font-family: "Roboto", sans-serif;
 }
 h1 {
-  font-size: 80px;
+  font-size: 65px;
   margin-bottom: 0;
 }
 .official {
@@ -37,6 +46,7 @@ h1 {
 }
 h2 {
   font-size: 40px;
+  padding-top: 0;
 }
 p,
 h2 {
@@ -45,12 +55,22 @@ h2 {
 p {
   font-size: 30px;
 }
-.container {
+img {
   display: block;
-  margin: 100px auto;
-  max-width: 1200px;
+  margin: auto;
   padding: 20px;
-  border-radius: 5px;
+  max-width: 600px;
+  border-radius: 15px;
+}
+ul {
+  list-style: none;
+  display: block;
+  margin: 0, auto;
+}
+
+li {
+  font-size: 20px;
+  color: aliceblue;
 }
 
 @media (max-width: 400px) {
