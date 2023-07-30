@@ -93,6 +93,10 @@ p {
     font-size: 30px;
   }
 
+  .grid-2-columns {
+    grid-template-columns: 1fr;
+  }
+
   p {
     font-size: 20px;
   }
