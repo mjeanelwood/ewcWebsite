@@ -55,28 +55,35 @@ h2 {
 p {
   font-size: 30px;
 }
-img {
+.img-responsive-1 {
   display: block;
   margin: auto;
   padding: 20px;
   max-width: 600px;
   border-radius: 15px;
 }
-ul {
-  list-style: none;
-  display: block;
-  margin: 0, auto;
+.grid {
+  display: grid;
 }
-
-li {
-  font-size: 20px;
-  color: aliceblue;
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+.img-responsive-2 {
+  max-width: 200px;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
 }
 
 @media (max-width: 400px) {
-  h1 {
-    font-size: 40px;
+  .container,
+  .containerServices {
+    max-width: 390px;
   }
+  h1 {
+    font-size: 30px;
+  }
+
   p {
     font-size: 20px;
   }
