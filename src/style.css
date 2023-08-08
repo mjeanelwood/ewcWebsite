@@ -1,14 +1,14 @@
 body {
-  background-color: #4872a0;
+  background-color: aliceblue;
 }
 
 .container {
   display: block;
-  margin: 100px auto;
+  margin: 0 auto;
   margin-bottom: 50px;
   max-width: 1200px;
   padding: 20px;
-  border: 2px solid aliceblue;
+  border: 2px solid #767676;
   border-radius: 15px;
 }
 
@@ -17,8 +17,12 @@ body {
   margin: 0 auto;
   max-width: 1200px;
   padding: 20px;
-  border: 2px solid aliceblue;
+  border: 2px solid #767676;
   border-radius: 15px;
+}
+.container,
+.container-services {
+  background-color: #4872a0;
 }
 
 button {
@@ -48,7 +52,7 @@ p {
 }
 h1 {
   font-size: 65px;
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 .official {
   color: whte;
@@ -64,12 +68,13 @@ h2 {
 p {
   font-size: 30px;
 }
+
 .img-responsive-1 {
   display: block;
-  margin: auto;
-  padding: 20px;
+  margin: 0 auto;
   max-width: 600px;
-  border-radius: 15px;
+  border: 2px solid aliceblue;
+  border-radius: 20px;
 }
 .grid {
   display: grid;
@@ -92,8 +97,10 @@ p {
   h1 {
     font-size: 30px;
   }
-
-  .grid-2-columns {
+  .img-responsive-1 {
+    display: none;
+  }
+  .grid {
     grid-template-columns: 1fr;
   }
 
