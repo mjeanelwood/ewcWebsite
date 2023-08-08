@@ -83,7 +83,7 @@ p {
   grid-template-columns: 1fr 1fr;
 }
 .img-responsive-2 {
-  max-width: 250px;
+  max-width: 150px;
   display: block;
   margin: auto;
   border-radius: 10px;
@@ -94,7 +94,8 @@ p {
   .containerServices {
     max-width: 390px;
   }
-  h1 {
+  h1,
+  h2 {
     font-size: 30px;
   }
   .img-responsive-1 {
