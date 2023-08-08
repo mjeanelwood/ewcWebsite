@@ -90,10 +90,6 @@ p {
 }
 
 @media (max-width: 400px) {
-  .container,
-  .containerServices {
-    max-width: 390px;
-  }
   h1,
   h2 {
     font-size: 30px;
