@@ -21,9 +21,10 @@ button {
   display: block;
   margin: 0 auto;
   text-align: center;
-  padding: 15px;
+  font-size: 5px;
+  padding: 5px;
   background-color: aliceblue;
-  border-radius: 50px;
+  border-radius: 35px;
 }
 a {
   text-decoration: none;
@@ -58,7 +59,7 @@ h2 {
   line-height: 1.5;
 }
 p {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .img-responsive-1 {
